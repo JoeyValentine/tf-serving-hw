@@ -7,4 +7,5 @@ ENV MYSQL_PASSWORD
 
 EXPOSE 3306
 
-ENTRYPOINT ["docker-entrypoint.sh", "mysqld"]
+ENTRYPOINT ["docker-entrypoint.sh"]
+CMD ["mysqld"]
